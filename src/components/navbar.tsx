@@ -110,7 +110,9 @@ export function Navbar() {
             >
               About
             </a>
-            <ContactUsButton />
+            <div className="lg:hidden block">
+              <ContactUsButton />
+            </div>
           </div>
         )}
       </div>

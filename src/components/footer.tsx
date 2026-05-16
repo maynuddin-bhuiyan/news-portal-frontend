@@ -157,7 +157,10 @@ export function Footer() {
         <div className="max-w-7xl mx-auto flex flex-col items-center justify-between gap-4 px-4 py-6 text-center md:flex-row">
           
           <p className="text-sm text-gray-400">
-            © 2026 TheDailyStar.net — Powered by RSI Lab
+            © 2026 <Link target="_blank" href="https://www.maynuddin.com/" className="hover:text-cyan-400">
+             maynuddin.com
+            </Link>{" "}
+             — Powered by korem's news. All rights reserved.
           </p>
 
           <p className="max-w-2xl text-xs leading-6 text-gray-500">
